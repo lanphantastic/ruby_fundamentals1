@@ -4,7 +4,7 @@ puts "Enter a number"
 
 number = gets.to_i
 
-if number > 50
+if number > 50 && number < 100
   puts "that's a big number"
 elsif number >= 100
   puts "why dream a little bigger?"
