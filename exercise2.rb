@@ -14,3 +14,10 @@ puts "Ten in its integer form is #{integer}"
 number_01 = 45628
 number_02 = 7839
 puts "The answer to #{number_01} when multiplied with #{number_02} is #{number_01*number_02}"
+
+# What's the value of the expression (10 < 20 && 30 < 20) || !(10 == 11)? Try figuring it out on your own before typing it in.
+
+statement1 = "(10 < 20 && 30 < 20)"
+statement2 = "!(10 == 11)"
+
+puts "The value of #{statement1} || #{statement2} is #{(10 < 20 && 30 < 20) || !(10 == 11)}"
